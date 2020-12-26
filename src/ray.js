@@ -1,7 +1,7 @@
 export default class Ray {
   constructor(p1, a, maxLen) {
     this.p1 = p1;
-    this.a = 0;
+    this.a = a;
     this.maxLen = maxLen;
 
     // If no obstacles in way, this is end point
